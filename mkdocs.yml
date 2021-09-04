@@ -1,0 +1,41 @@
+# Project information
+site_name: McServ
+site_url: https://docs.mcserv.how
+site_author: McServ Contributors
+site_description: >-
+  CLI utility to manage MC Server installations
+
+theme: 
+  name: material
+  features:
+    - search.suggest  
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode  
+
+# Repository
+repo_name: drschlaubi/mcserv
+repo_url: https://github.com/DRSchlaubi/mcserv
+edit_uri: https://github.com/mcservcli/docs
+
+# Copyright
+copyright: Copyright &copy; 2021 McServ Contributors
+
+# Plugins
+plugins:
+  - macros
+  - search:
+      prebuild_index: true
+
+extra:
+  version: 0.0.1
