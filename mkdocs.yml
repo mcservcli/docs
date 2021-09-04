@@ -26,7 +26,7 @@ theme:
 # Repository
 repo_name: drschlaubi/mcserv
 repo_url: https://github.com/DRSchlaubi/mcserv
-edit_uri: https://github.com/mcservcli/docs/edit/main/
+edit_uri: https://github.com/mcservcli/docs/edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2021 McServ Contributors
