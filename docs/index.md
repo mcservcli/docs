@@ -25,13 +25,16 @@ CLI utility to manage MC server installations.
 | PaperMC | ✔ | ✔ | ✔ |
 | Waterfall | ✔ | ✔ | ❌ |
 | Travertine | ✔ | ✔ | ❌ |
-| PurPur | ✔ | ✔ | ❌ |
-| Velocity² | ✔ | ✔³ | ❌ |
+| PurPur | ✔ | ✔ | ✔³ |
+| Nyper | ✔ | ✔ | ✔³ |
+| Velocity² | ✔ | ✔⁴ | ❌ |
 
 ¹ Metadata is required to ensure the correct Java version is installed and use proper JVM flags
 
 ² Velocity does not provide checksums on their Downloads so no checksum verification will be made when downloading
 velocity
 
-³ Velocity does not provide information on when a new build got released over an API, therefore mcserv will re-download
+³ Uses Paper's metadata since it's a Paper fork
+
+⁴ Velocity does not provide information on when a new build got released over an API, therefore mcserv will re-download
 Velocity each time you run the update command.
